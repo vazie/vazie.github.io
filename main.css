@@ -5,11 +5,13 @@
     margin-top: 20px;
     width: 10%;
 }
+.banner {
+    align: center;
+}
 h1 {
     text-align: center;
     font-family: Bradley, Arial, Helvetica, sans-serif;
     color: #0d4e32;
-    margin: 10px 10px 10px 10px;
 }
 
 h2 {
@@ -20,4 +22,7 @@ h2 {
 body {
     background-color: rgb(39, 37, 37);
     color: white;
+}
+div {
+    margin: 10px 10px 10px 10px;
 }
