@@ -1,54 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-  <title>Stephen Vaz</title>
-  <style>
-    #banner {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        padding: 10px;
-    }
-    #main {
-        padding: 5px;
-    }
-    #image {
-        display: flex;
-        justify-content: center;  
-    }
-    h1 {
-        text-align: center;
-        font-family: Bradley, Arial, Helvetica, sans-serif;
-        color: #0d4e32;
-    }
+  <meta charset="UTF-8">
+  <title>CodePen - Vaz Portfolio Website</title>
+  <link rel="stylesheet" href="./style.css">
 
-    h2 {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    body {
-        background-color: rgb(39, 37, 37);
-        color: white;
-    }
-    div {
-        margin: 10px 10px 10px 10px;
-    }
-  </style>
 </head>
 <body>
-  <div id="banner">
-    <a href="http://vazie.github.io">Home</a>
-    <a href="">Projects</a>
-    <img class="git" alt="Github Image" src="/images/github.png">
-    <img class="twitter" alt="Twitter Image" src="/images/twitter.png">
-  </div>
-  <div id="main">
-    <div id="image">
-        <img id="me" alt="Stephen Vaz" src="/images/stephen-vaz.PNG"><br>
+<!-- partial:index.partial.html -->
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+  rel="stylesheet"
+/>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a id="nav-link1" href="#contact">Contact</a></li>
+      <li><a id="nav-link2" href="#projects">Projects</a></li>
+      <li><a id="nav-link3" href="#welcome-section">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="welcome-section">
+      <div class="main-section">
+      <img src="https://github.com/vazie/vazie.github.io/blob/master/images/StephenVaz_yellow.png?raw=true" alt="Avatar image of Stephen Vaz"/><br>
+      <div id="welcome-section-header">
+        <h1>Stephen Vaz</h1>
+      </div>
+      <h3>Front-end Developer</h3><br>
+      <p>I design wondefully websites for a range of uses.</p>
+      <p>Please get in touch to talk about your next project.</p>        
+      </div>
+    </section>
+    <section id="projects">
+      <div class="main-section">
+       <div id="project-section-header">
+      <h1>Projects</h1>
+       </div>
+       <div class="projects-grid">
+          <div class="grid">
+    <a
+      href="https://codepen.io/vazie/pen/abwMjOy"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://github.com/vazie/vazie.github.io/blob/master/images/Tribute_Page.png?raw=true"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Tribute Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+         </div>
+          <div class="grid">
+    <a
+      href="https://codepen.io/vazie/pen/yLXmoEV"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+      src="https://github.com/vazie/vazie.github.io/blob/master/images/Technical_Page.png?raw=true"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Technical Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+         </div>
+          <div class="grid">  
+    <a
+      href="https://codepen.io/vazie/pen/GREaeez"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://github.com/vazie/vazie.github.io/blob/master/images/Product_Page.png?raw=true"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Product Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+         </div>
+          <div class="grid">
+    <a
+      href="https://codepen.io/vazie/pen/dyREqXQ"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://github.com/vazie/vazie.github.io/blob/master/images/Survey.png?raw=true"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Survey
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+         </div>
+       </div>
+        <div>
+          <a
+    href="https://codepen.io/vazie/"
+    class="btn btn-show-all"
+    target="_blank"
+             ><p>Show all <i class="fas fa-chevron-right"></i
+  ></p></a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+     <div class="main-section">
+      <div id="contact-section-header">
+    <h1>Let's work together...</h1>
+      </div>
+  <div class="contact-links">
+    <a
+      id="profile-link"
+      href="https://github.com/vazie"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+    <a
+      href="https://twitter.com/vazie87"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-twitter"></i> Twitter</a
+    >
+    <a href="mailto:stephenvaz@gmail.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    >
+      </div>
     </div>
-    <h1>Stephen Vaz</h1><br>
-    <h2>Welcome to my portfolio site</h2>
-  </div>
+    </section>
+  </main>
+</body>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
