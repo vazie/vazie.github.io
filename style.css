@@ -87,7 +87,7 @@ p {
   padding: 20px;
 }
 #welcome-section img {
-  border-radius: 200px;
+  border-radius: 500px;
   width: 40%;
 }
 .projects-grid {
@@ -115,7 +115,7 @@ p {
 }
 .project-image {
   width: 100%;
-  border-radius: 50px;
+  border-radius: 20px;
   display: block;
 }
 .project-overlay {
